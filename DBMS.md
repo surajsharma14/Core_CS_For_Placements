@@ -167,3 +167,10 @@
     - Group by command groups the attributes with the same name. Count command counts the number of attributes after grouping.
 - What is meant by Data Warehousing?
     - Data Warehousing means collecting data from different transactional sources and RDBS and storing it in a single database. Basically a warehouse of data.
+    - What are the uses of view?
+      1. Views can represent a subset of the data contained in a table; consequently, a view can limit the degree of exposure of the underlying tables to the outer world: a given user may have permission to query the view, while denied access to the rest of the base table. 
+2. Views can join and simplify multiple tables into a single virtual table.
+3. Views can act as aggregated tables, where the database engine aggregates data (sum, average, etc.) and presents the calculated results as part of the data.
+4. Views can hide the complexity of data.
+5. Views take very little space to store; the database contains only the definition of a view, not a copy of all the data which it presents. 
+6. Depending on the SQL engine used, views can provide extra security.
